@@ -13,4 +13,7 @@ This is the second project of the Web Development program at Practicum by Yandex
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Colored the asterisks red to emphasize them
+- Modified the visual state of the checkbox when checked
+- Provided different YouTube videos for recipes
+- Added modifiers for the checkbox and its label
