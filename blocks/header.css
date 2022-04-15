@@ -10,7 +10,6 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  position: relative;
 }
 
 .header__title {
@@ -40,7 +39,7 @@
 }
 
 .header__image {
-  max-width: 636px;
+  max-width: 646px;
   z-index: 1;
   position: absolute;
   top: 124px;
@@ -51,20 +50,25 @@
   font-weight: 500;
   z-index: 2;
   color: #6f6f6f;
+  margin: 0;
+  padding-top: auto;
+  padding-right: 80px;
+  padding-bottom: 40px;
+  padding-left: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100vh;
 }
 
 .header__paragraph-hours {
   margin: 0;
-  position: absolute;
-  left: 80px;
-  bottom: 40px;
+  padding: 0;
 }
 
 .header__paragraph-address {
   margin: 0;
-  position: absolute;
-  right: 80px;
-  bottom: 40px;
+  padding: 0;
 }
 
 .header__paragraph-hours-item {
